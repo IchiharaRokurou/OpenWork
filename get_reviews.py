@@ -90,7 +90,7 @@ def get_search_results():
         print(name)
         driver.get(base_url + comp_url)
         save_info(name, base_url + comp_url)
-        time.sleep(1)
+        time.sleep(5)
 
 # xlsxファイル作成&書き込み
 def make_xlsx(filename, scores:dict, review_num, all_review_dict:dict):
