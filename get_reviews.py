@@ -26,8 +26,8 @@ driver = webdriver.Chrome()
 driver.get(url) 
 
 # ユーザ情報 入力してください
-USERNAME = "fordevelop6960@gmail.com"
-PASSWORD = "vFKfwrr2M@ipEL"
+USERNAME = "your_username"
+PASSWORD = "your_password"
 
 
 def main():
